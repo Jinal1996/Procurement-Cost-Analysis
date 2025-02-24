@@ -1,17 +1,17 @@
 # **Procurement Cost Analysis and Optimization**  
 
 ## **Overview**  
-This project focuses on **cost modeling analysis** for global procurement strategies, emphasizing **plastic components and compressors**. The analysis explores **cost drivers, supplier selection, and economic trade-offs** in global sourcing using **bottom-up modeling and regression analysis** to optimize costs and enhance procurement decision-making.  
+This project focuses on **cost modeling analysis** for global procurement strategies, emphasizing **plastic components and air conditioner**. The analysis explores **cost drivers, supplier selection, and economic trade-offs** in global sourcing using **bottom-up modeling and regression analysis** to optimize costs and enhance procurement decision-making.  
 
 ## **Project Objectives**  
-This project analyzes **global procurement strategies**, with a focus on **cost modeling for compressors and injection-molded parts**. The key objectives include:  
+This project analyzes **global procurement strategies**, with a focus on **cost modeling for air conditioner and injection-molded parts**. The key objectives include:  
 
 ### **1. Understanding Cost Differences Across Regions**  
-- Compare **compressor and injection-molded part** prices across different global regions.  
+- Compare **air conditioner and injection-molded part** prices across different global regions.  
 - Identify **regional pricing variations** and assess potential **cost disparities** across suppliers.  
 
 ### **2. Developing Cost Models for Key Components**  
-- **Compressors:** Utilize **parametric modeling** to identify **primary cost drivers**.  
+- **Air Conditioners:** Utilize **parametric modeling** to identify **primary cost drivers**.  
 - **Injection-Molded Parts:** Apply **bottom-up cost analysis**, breaking down **material, labor, production, and tooling costs**.  
 
 ### **3. Identifying Key Cost Drivers**  
@@ -19,11 +19,11 @@ This project analyzes **global procurement strategies**, with a focus on **cost 
 - Analyze factors such as **capacity (BTUs per hour), energy efficiency (EER), weight, unit volume, and regional differences** affecting costs.  
 
 ### **4. Applying Regression Analysis for Cost Relationships**  
-- Evaluate **compressor cost variations** using **regression modeling**.  
+- Evaluate **Air conditioner cost variations** using **regression modeling**.  
 - Ensure cost predictions are based on **causal cost drivers** rather than statistical correlations alone.  
 
 ### **5. Comparing Supplier Cost Structures for Injection-Molded Parts**  
-- Analyze supplier pricing for **resin, labor, production, and tooling costs**.  
+- Analyze supplier pricing for **epoxy resin, labor, production, and tooling costs**.  
 - Estimate **"should-cost" benchmarks** to assess **optimal supplier pricing** and identify **cost-saving opportunities**.  
 
 These objectives drive **data-backed procurement decisions**, optimize **supplier selection**, and improve **cost efficiency** in **global sourcing and manufacturing operations**.  
@@ -74,14 +74,13 @@ Implementing these strategies enables organizations to **maintain competitivenes
 ## **Files in this Repository**  
 | **File Name**                          | **Description**  |
 |--------------------------------|--------------|
-| `Procurement_Cost_Analysis.xlsx` | Cost breakdown and supplier data analysis |
-| `Compressor_Regression_Model.xlsx` | Regression analysis for compressor pricing |
+| `InjectionMoldingPart_Bottoms-up_CostModel.xlsx` | Cost breakdown bottoms up analysis |
+| `AirConditioner_Regression_Model.xlsx` | Regression analysis for Airconditioner pricing |
 | `README.md` | Project overview and key findings |
 
 ---
 
 ## **Disclaimer**  
-
-Disclaimer: This repository contains an independent analysis based on publicly available concepts related to cost modeling and procurement strategies. The original case study "Whirlpool Corporation: Global Procurement" (UV0341-PDF-ENG) is copyrighted by Harvard Business School Publishing. Users should acquire the official case study from HBS Publishing before using this material. This repository does not include any copyrighted case materials.
+This project was conducted as part of an academic coursework case study on cost modeling and procurement analysis. The dataset and analysis presented here have been independently structured and do not contain any proprietary, confidential, or copyrighted material from external sources. This repository is intended for educational purposes only and does not represent any official case study solution or company analysis.
 
 ---

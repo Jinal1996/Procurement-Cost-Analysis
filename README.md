@@ -11,12 +11,12 @@ This project analyzes **global procurement strategies**, with a focus on **cost 
 - Identify **regional pricing variations** and assess potential **cost disparities** across suppliers.  
 
 ### **2. Developing Cost Models for Key Components**  
-- **Air Conditioners:** Utilize **parametric modeling** to identify **primary cost drivers**.  
+- **Air Conditioners:** Utilize **logistic regression modeling** to identify **primary cost drivers**.  
 - **Injection-Molded Parts:** Apply **bottom-up cost analysis**, breaking down **material, labor, production, and tooling costs**.  
 
 ### **3. Identifying Key Cost Drivers**  
 - Implement a **structured cost driver framework**, considering **Design, Facility, Geography, and Operations**.  
-- Analyze factors such as **capacity (BTUs per hour), energy efficiency (EER), weight, unit volume, and regional differences** affecting costs.  
+- Analyze factors such as **capacity (BTUs per hour), energy efficiency ratio, weight, unit volume, and regional differences** affecting costs.  
 
 ### **4. Applying Regression Analysis for Cost Relationships**  
 - Evaluate **Air conditioner cost variations** using **regression modeling**.  
@@ -30,11 +30,11 @@ These objectives drive **data-backed procurement decisions**, optimize **supplie
 
 ---
 
-## Cost Driver Framework
+## Cost Optimization Framework
 
-This study utilizes a Cost Driver Framework to evaluate key factors that influence costs in manufacturing and supply chain operations. This structured approach helps in identifying cost optimization opportunities, enhancing supplier efficiency, and improving procurement strategies to achieve overall cost reduction.
+This study utilizes a Cost Optimization Framework to evaluate key factors that influence costs in manufacturing and supply chain operations. This structured approach helps in identifying cost optimization opportunities, enhancing supplier efficiency, and improving procurement strategies to achieve overall cost reduction.
 
-| **Cost Driver Category** | **Influence on Cost Structure** | **Key Factors to Consider** |
+| **Cost Optimization Category** | **Influence on Cost Structure** | **Key Factors to Consider** |
 |-------------------------|--------------------------------|----------------------------|
 | **Design** | The complexity and specifications of a product influence material usage and manufacturing cost. | Material selection, design intricacy, customization, product standardization |
 | **Facility** | The scale and technological capabilities of production facilities impact efficiency and overhead expenses. | Plant size, automation level, process integration, production flexibility |
@@ -45,9 +45,9 @@ By evaluating these cost drivers, businesses can enhance supplier selection, opt
 
 ---
 
-## **Cost Modeling Approach**  
+## **Cost Estimation Methods**  
 
-Cost modeling strategies are structured based on the **complexity of manufacturing processes and supply chain dynamics**. Various cost estimation approaches are applied depending on the specific product category to ensure **accurate pricing, cost efficiency, and supplier optimization**.  
+Cost estimation methods are structured based on the **complexity of manufacturing processes and supply chain dynamics**. Various cost estimation approaches are applied depending on the specific product category to ensure **accurate pricing, cost efficiency, and supplier optimization**.  
 
 | **Category**                  | **Product Types**                        | **Cost Influences**                      | **Optimization Strategies**                      | **Cost Estimation Method**     |
 |--------------------------------|----------------------------------------|------------------------------------------|------------------------------------------------|--------------------------------|
@@ -55,7 +55,7 @@ Cost modeling strategies are structured based on the **complexity of manufacturi
 | **Manufactured Components**     | Sheet Metal Parts, Molded Plastics     | Production methods, labor cost variations, process efficiency | Process automation, supplier productivity incentives, waste reduction | Component-Level Cost Breakdown |
 | **Complex Engineered Systems**  | Motors, Compressors, Electronic Modules | Performance specifications, quality requirements, production scale | Supplier capability assessment, modular design, technology standardization | Performance-Based Cost Modeling |
 
-This structured **cost modeling approach** helps align **supplier pricing with key cost drivers**, optimize **cost efficiency**, and enhance **competitive sourcing strategies**.  
+This structured **cost estimation approaches** helps align **supplier pricing with key cost drivers**, optimize **cost efficiency**, and enhance **competitive sourcing strategies**.  
 
 ---
 
@@ -75,7 +75,6 @@ Implementing these strategies enables organizations to **maintain competitivenes
 | **File Name**                          | **Description**  |
 |--------------------------------|--------------|
 | `InjectionMoldingPart_Bottoms-up_CostModel.xlsx` | Cost breakdown bottoms up analysis |
-| `AirConditioner_Regression_Model.xlsx` | Regression analysis for Airconditioner pricing |
 | `README.md` | Project overview and key findings |
 
 ---
